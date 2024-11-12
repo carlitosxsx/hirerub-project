@@ -11,12 +11,13 @@
 <body>
 <header>
     <div class="logo">
+        <img alt="img/logo.png" class="logoHire" th:src="@{/img/logo.png}">
     </div>
     <button class="SejaProff">
         <a href="">SEJA UM PROFISSIONAL</a>
     </button>
     <button class="entrar">
-        <a>ENTRAR</a>
+        <a href="login.html">ENTRAR</a>
     </button>
 </header>
 
@@ -56,18 +57,16 @@
 </div>
 
 <div class="imagem_inicial_container">
-
+    <img class="imagem_inicial" th:src="@{/img/desenhotelainicial.png}" alt="">
 </div>
 
 <div class="confira_os_servicos_container">
-    <a class="confira_os_servicos">CONFIRA NOSSOS SERVIÇOS ➜</a>
+    <a class="confira_os_servicos" href="serviços.html">CONFIRA NOSSOS SERVIÇOS ➜</a>
 </div>
 
 <div class="rodape_falso">
     <div class="barra_pesquisa_container">
-        <label>
-            <input type="text" class="barra_pesquisa" placeholder="O que você precisa?">
-        </label>
+        <input type="text" class="barra_pesquisa" placeholder="O que você precisa?">
         <button class="barra_pesquisa_botao">
             <i class="fas fa-search"></i>
         </button>
@@ -86,18 +85,21 @@
     <div class="servicos">
         <!-- Serviço Eletricista -->
         <div class="servico">
+            <img th:src="@{/img/eletricista_orçamento2.jpg}" alt="Eletricista">
             <h3>Eletricista</h3>
             <button>Solicitar Orçamento</button>
         </div>
 
         <!-- Serviço Diarista -->
         <div class="servico">
+            <img th:src="@{/img/diarista.png}" alt="Diarista">
             <h3>Diarista</h3>
             <button>Solicitar Orçamento</button>
         </div>
 
         <!-- Serviço Jardineiro -->
         <div class="servico">
+            <img th:src="@{/img/jardineiro_orçamento.png}" alt="Jardineiro">
             <h3>Jardineiro</h3>
             <button>Solicitar Orçamento</button>
         </div>
