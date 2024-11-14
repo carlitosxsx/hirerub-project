@@ -1,0 +1,121 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(/imgs/tela_de_fundo_serviços.png);
+    background-size: cover; /* Faz a imagem cobrir todo o container */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-button {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.back-button svg {
+    margin-left: 2%;
+}
+
+.Titulo{
+  color: white;
+}
+
+.logo {
+    width: 70px;
+    margin-right: 2%;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: 1800px;
+    height: 500px;
+    max-width: 100%;
+    margin-top: 5%;
+    overflow: hidden;
+    padding-left: 90px;
+    padding-right: 80px;
+  }
+
+  .card {
+    text-align: center;
+    transform: scale(0.8);
+    opacity: 0.5;
+    transition: transform 0.3s, opacity 0.3s;
+    height: 400px;
+  }
+
+  .card img {
+    max-width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+
+  .card.active {
+    transform: scale(1);
+    opacity: 1;
+    height: 470px;
+  }
+
+  .botao_orcamento {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 88%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+  button.prev {
+    left: 40px;
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    background: none !important; /* Sem fundo */
+    border: none; /* Sem borda */
+    color: #333; /* Cor da seta em cinza escuro */
+    font-size: 40px; /* Tamanho da seta maior */
+  }
+
+  button.next {
+    right: 40px;
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    background: none !important; /* Sem fundo */
+    border: none; /* Sem borda */
+    color: #333; /* Cor da seta em cinza escuro */
+    font-size: 40px; /* Tamanho da seta maior */
+  }
+
+  .tipo_serviço{
+    margin-top: 10px;
+  }
+
+
+  .rodape_servicos {
+    background-color: black;
+    margin-top: 3%;
+    height: 80px;
+}

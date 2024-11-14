@@ -12,7 +12,25 @@ public class HomeController {
 
     @GetMapping
     public ModelAndView index(){
-        return new ModelAndView("Menu");
+        return new ModelAndView("home/index");
+    }
+
+    @GetMapping
+    @RequestMapping("/servicos")
+    public ModelAndView exibirServicos(){
+        return new ModelAndView("paginas/servicos");
+    }
+
+    @GetMapping
+    @RequestMapping("/login")
+    public ModelAndView fazerLogin(){
+        return new ModelAndView("paginas/login");
+    }
+
+    @GetMapping
+    @RequestMapping("/servicos/diarista")
+    public ModelAndView exibirServico(){
+        return new ModelAndView("paginas/diarista");
     }
 
 }

@@ -1,0 +1,125 @@
+/* Configuração geral do layout */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-button {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.back-button svg {
+    margin-left: 2%;
+}
+
+.logo {
+    width: 70px;
+    margin-right: 2%;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.illustration img {
+    width: 100%;
+    max-width: 800px;
+    margin-left: 4%;
+
+}
+
+.form {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+
+.form h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 91%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.form-group-checkbox {
+    padding-bottom: 20px;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.btn {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.btn:hover {
+    background-color: #444;
+}
+
+.forgot-password {
+    color: #333;
+    text-decoration: none;
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+}
+
+.signup {
+    color: #333;
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+}
+
+
+.rodape_login {
+    background-color: black;
+    height: 80px;
+    margin-top: -1%;
+}

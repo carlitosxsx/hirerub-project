@@ -1,0 +1,214 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F9FAFB;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-button {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.back-button svg {
+    margin-left: 2%;
+}
+
+.Titulo{
+  color: white;
+}
+
+.logo {
+    width: 70px;
+    margin-right: 2%;
+}
+
+.slogan {
+    margin-bottom: 32px;
+}
+.slogan h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1F2937;
+}
+.slogan p {
+    color: #6B7280;
+    margin-top: 8px;
+}
+.slogan .features {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.slogan .features div {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+.slogan .features i {
+    margin-right: 8px;
+}
+.slogan .features .text-blue-600 {
+    color: #2563EB;
+}
+.slogan .features .text-yellow-500 {
+    color: #F59E0B;
+}
+.content {
+    display: flex;
+    gap: 16px;
+}
+.card {
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+.card h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1F2937;
+}
+.card .search {
+    position: relative;
+    margin-top: 16px;
+}
+.card .search input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+}
+.card .search i {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: #9CA3AF;
+}
+.card ul {
+    margin-top: 16px;
+    list-style: none;
+    padding: 0;
+}
+.card ul li {
+    padding: 12px;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.review-card {
+    position: relative;
+}
+.review-card img {
+    position: absolute;
+    top: -48px;
+    right: -48px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.review-card .rating {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+.review-card .rating span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1F2937;
+}
+.review-card .rating .text-gray-500 {
+    color: #6B7280;
+    margin-left: 4px;
+}
+.review-card .stars {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.review-card .stars i {
+    color: #F59E0B;
+}
+.review-card .review-count {
+    color: #6B7280;
+    margin-top: 8px;
+}
+.review-card .review-count .font-bold {
+    color: #1F2937;
+}
+.review-card .review-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1F2937;
+    margin-top: 16px;
+}
+.review-card .review {
+    margin-top: 16px;
+}
+.review-card .review p {
+    color: #6B7280;
+}
+.review-card .review .font-bold {
+    color: #1F2937;
+}
+.review-card .review .stars {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.review-card .review .stars i {
+    color: #F59E0B;
+}
+.review-card .review .reviewer {
+    color: #6B7280;
+    margin-top: 8px;
+}
+.review-card .review .reviewer .font-bold {
+    color: #1F2937;
+}
+
+.comment-section, .quote-section {
+    margin-top: 24px;
+}
+.comment-section textarea, .quote-section input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+.comment-section button, .quote-section button {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.comment-section button:hover, .quote-section button:hover {
+    background-color: #1D4ED8;
+}
+
+.rodape_diarista {
+    background-color: black;
+    margin-top: 3%;
+    height: 80px;
+}
