@@ -1,27 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Relatórios</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/homeRelatorios.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-<h1>Relatórios</h1>
 
-<!-- Canvas para o gráfico de aquisições -->
-<div style="width: 800px; height: 400px;">
+<div class="barra">Relatórios</div>
+
+
+<div class="grafico-container">
     <canvas id="acquisitions"></canvas>
 </div>
 
-<!-- Script que contém o código para renderizar o gráfico -->
-<script type="module" src="acquisitions.js"></script>
 
-<!-- Links para diferentes gráficos -->
-<p><a href="/relatorio/linha">Gráfico de Acessos</a></p>
-<p><a href="/relatorio/barra">Gráfico de Barra</a></p>
-<p><a href="/relatorio/pizza">Gráfico de Pizza</a></p>
-<p><a href="barra.html"></a></p>
+<p><a href="/relatorio/barra">Gráfico de Acessos</a></p>
 <br>
+<p><a href="/relatorio/pizza">Gráfico de Serviços Mais Requeridos</a></p>
+
 </body>
 </html>
-
-<!-- localhost:8080 -->
