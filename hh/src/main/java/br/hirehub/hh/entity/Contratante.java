@@ -16,5 +16,4 @@ public class Contratante {
     private String senha;
     @OneToOne
     private Usuario usuarioDono;
-
 }

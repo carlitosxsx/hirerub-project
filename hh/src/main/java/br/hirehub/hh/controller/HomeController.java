@@ -26,8 +26,20 @@ public class HomeController {
 
     @GetMapping
     @RequestMapping("/servicos/diarista")
-    public ModelAndView exibirServico(){
+    public ModelAndView exibirServicoDiarista(){
         return new ModelAndView("paginas/diarista");
+    }
+
+    @GetMapping
+    @RequestMapping("/servicos/eletricista")
+    public ModelAndView exibirServicoEletricista(){
+        return new ModelAndView("paginas/eletricista");
+    }
+
+    @GetMapping
+    @RequestMapping("/servicos/jardineiro")
+    public ModelAndView exibirServicoJardineiro(){
+        return new ModelAndView("paginas/jardineiro");
     }
 
     @GetMapping

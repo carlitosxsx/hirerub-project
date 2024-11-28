@@ -1,0 +1,100 @@
+<html lang="pt-BR" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Serviço de Eletricista</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" th:href="@{/css/eletricista.css}">
+</head>
+<body>
+<header>
+    <a th:href="@{/servicos}" class="back-button">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 18L9 12L15 6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        VOLTAR
+    </a>
+    <img class="logo" th:src="@{img/logo.png}" alt="Logo">
+</header>
+<div class="container">
+    <div class="slogan">
+        <h1>Precisando de Eletricista?</h1>
+        <p>Milhares de profissionais avaliados por clientes, permitindo você negociar apenas com os melhores.</p>
+        <div class="features">
+            <div class="text-blue-600">
+                <i class="fas fa-check-circle"></i>
+                <span>Até 4 orçamentos grátis e seguros</span>
+            </div>
+            <div class="text-yellow-500">
+                <i class="fas fa-star"></i>
+                <span>Profissionais avaliados</span>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="card">
+            <h2>Qual serviço de Eletricista está precisando?</h2>
+            <div class="search">
+                <input type="text" placeholder="O que você precisa?"/>
+                <i class="fas fa-search"></i>
+            </div>
+            <ul>
+                <li>Reparo de Tomadas e Interruptores</li>
+                <li>Instalação de Sistemas de Iluminação</li>
+                <li>Instalação de Fiação Elétrica</li>
+                <li>Manutenção de Quadros de Distribuição</li>
+            </ul>
+            <div class="quote-section">
+                <h2>
+                    Solicitar Orçamento
+                </h2>
+                <input placeholder="Digite seu e-mail" type="text"/>
+                <button>
+                    Solicitar
+                </button>
+            </div>
+        </div>
+        <div class="card review-card">
+            <img th:src="@{/img/eletricista_pagina_propria.png}"/>
+            <div class="rating">
+                <span>4.49</span>
+                <span class="text-gray-500">/ 5</span>
+            </div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="review-count"><span class="font-bold">17000</span> clientes avaliaram nossos profissionais</p>
+            <h3 class="review-title">Avaliações de quem contratou</h3>
+            <div class="review">
+                <p><span class="font-bold">Ana Paula</span> avaliou:</p>
+                <p>Fui muito bem atendida com um trabalho de qualidade. Valeu a pena, orçamento grátis e não é careiro. Obrigada!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="reviewer">para <span class="font-bold">Marcos André</span> / Eletricista</p>
+            </div>
+            <div class="comment-section">
+                <h2>
+                    Adicionar Comentário
+                </h2>
+                <textarea placeholder="Escreva seu comentário" rows="4"></textarea>
+                <button>
+                    Enviar
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="rodape_diarista">
+</footer>
+</body>
+</html>

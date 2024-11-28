@@ -22,7 +22,7 @@
     <div class="card" id="card1">
         <h3 class="tipo_serviço">Eletricista</h3>
         <img sr th:src="@{/img/eletricista_teste.png}" alt="Eletricista">
-        <button class="botao_orcamento">Clique aqui e solicite um orçamento agora mesmo!</button>
+        <a th:href="@{servicos/eletricista}"><button class="botao_orcamento">Clique aqui e solicite um orçamento agora mesmo!</button></a>
     </div>
     <div class="card active" id="card2">
         <h3 class="tipo_serviço">Diarista</h3>
@@ -32,7 +32,7 @@
     <div class="card" id="card3">
         <h3 class="tipo_serviço">Jardineiro</h3>
         <img th:src="@{/img/jardineiro_teste.png}" alt="Jardineiro">
-        <a href=""><button class="botao_orcamento">Clique aqui e solicite um orçamento agora mesmo!</button></a>
+        <a th:href="@{servicos/jardineiro}"><button class="botao_orcamento">Clique aqui e solicite um orçamento agora mesmo!</button></a>
     </div>
     <button type="button" class="prev" onclick="prevSlide()">&#10094;</button>
     <button type="button" class="next" onclick="nextSlide()">&#10095;</button>

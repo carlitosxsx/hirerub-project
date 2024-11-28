@@ -260,4 +260,63 @@ a {
 }
 
 /* (mantém o restante dos estilos já existentes) */
+.graficos-footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 4px solid #ffffff;
+}
+
+.graficos-footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.graficos-footer-titulo {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.graficos-footer-descricao {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.graficos-footer-botao {
+    background-color: #ffffff;
+    color: #101820;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+.graficos-footer-botao a {
+    text-decoration: none;
+    color: #101820;
+}
+
+.graficos-footer-botao:hover {
+    background-color: #ddd;
+    transform: scale(1.05); /* Efeito de aumento no hover */
+}
+
+/* Ajuste geral para garantir que o footer esteja sempre no final */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; /* Garante que o conteúdo principal ocupe o espaço antes do footer */
+}
+
 
